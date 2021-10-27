@@ -1,0 +1,138 @@
+https://twistedmatrix.com/trac/
+
+jquery simply
+1. React- The main purpose of React is to compose interactive user interfaces from reusable components.
+2. Express.js
+
+0. FastAPI
+1. Django https://djangobook.com/mdj2-django-templates/ https://djangoforapis.com/introduction/
+2. Flask
+Postman testing
+
+Laravel / Lumen / Adonisjs
+Phoenix Elixir
+
+https://www.howtonetwork.com/courses/wireshark/wireshark-certified-network-analyst-wcna/
+https://www.wcnacertification.com/
+
+
+https://www.ministryoftesting.com/dojo/lessons/what-s-that-smell-tidying-up-our-test-code-angie-jones
+
+
+#https://testautomationu.applitools.com/setting-a-foundation-for-successful-test-automation
+#################################################################################
+#################################################################################
+###Python Programming
+#################################################################################
+#################################################################################
+multi-line comment ''' comments inside 3 single quotes '''
+
+
+#################################################################################
+#################################################################################
+###Chapter 3 - Args, Kwargs, #args###
+#################################################################################
+#################################################################################
+Positional Arguments
+	def user_info(name, age, city):
+	Frequently used throughout Selenium coding
+	Python reads arguments in order as listed in function definition.
+	
+Keyword Arguments
+	Set default variables if someone doesn't enter the needed input to the 
+	function.
+
+*args
+	allows a function to take any number of positional arguments
+	
+**kwargs
+	allows a function to take any number of keyword arguments.
+
+	Any formal or required arguments that you wish to pass into a function, 
+	must be passed before *args and **kwargs
+
+Use formal positional arguments first, then *args, **kwargs
+
+#################################################################################
+#################################################################################
+###Chapter 4 - Conditionals###
+#################################################################################
+#################################################################################
+The break statement indicates that when you see it, the loop should end and go on 
+to the next statement in the program that is outside of the loop.
+
+The continue statement skips the current part of the loop and moves on to the 
+next part of the loop.
+
+The pass statement skips any part of the loop where pass appears. This is best 
+used for testing code, but make sure you don't forget to remove the pass statement 
+when you're ready for your code to go into production.
+
+#################################################################################
+#################################################################################
+###Chapter 6 - Lists###
+#################################################################################
+#################################################################################
+new_list = []
+list.sort is only used with items of the same type
+
+#################################################################################
+#################################################################################
+###Chapter 7 - Dictionaries###
+#################################################################################
+#################################################################################
+As of Python 3.7, the order of a dictionary can be maintained
+Each key/value pair is separated from each other key/value pair with a comma.
+years={"Layla":1974, "Akeem":1997}
+
+#################################################################################
+#################################################################################
+###Chapter 8 - Classess###
+#################################################################################
+#################################################################################
+
+classes allow programmers to group data and information like variables and 
+functions into a single organized unit.
+
+Class Features
+
+	Classes allow us to share information with other classes and with other 
+parts of a Python program.
+
+	Inheritance
+		borrow elements of one class to create another class.
+	Multiple inheritance
+		allows a class to inherit attributes from multiple classes
+
+	All classes in Python are Objects.
+
+	Inside the class are public/private functions and variables
+
+	Instance variables
+		Variables that are specific to Objects created by the class.
+
+The __init__ method allows every instance of a class to be created with specific parameters
+The self variable allows information to be shared easily and efficiently
+
+#################################################################################
+#################################################################################
+###Chapter 9 - Inheritance, Multiple Inheritance, Polymorphism###
+#################################################################################
+#################################################################################
+
+Inheritance
+	attributes and methods from parent are available to the child
+	access all of those attributes, we use the super method
+
+Multiple Inheritance
+
+	class inherits from multiple classes and uses attributes and methods from 
+	both classes.
+
+	Learn how to use super
+
+Polymorphism — Method Overriding
+	child method with same name, similar implementation as parent and we
+	override the parent class method.
+	Basically polymorphism is just overwriting the method with something
+	else you want it to do.  Same name, different function.
